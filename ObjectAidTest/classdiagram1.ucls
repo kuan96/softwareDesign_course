@@ -3,13 +3,35 @@
   associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="ObjectAidTest.Main" project="ObjectAidTest" 
     file="/ObjectAidTest/src/ObjectAidTest/Main.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="304" width="283" x="107" y="116"/>    
+    <position height="304" width="283" x="168" y="37"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
+  <class id="2" language="java" name="ObjectAidTest.Parent" project="ObjectAidTest" 
+    file="/ObjectAidTest/src/ObjectAidTest/Parent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="ObjectAidTest.Son" project="ObjectAidTest" 
+    file="/ObjectAidTest/src/ObjectAidTest/Son.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="41" y="381"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="4">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
